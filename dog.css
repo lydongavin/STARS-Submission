@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto&display=swap');
+
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./img/paw.jpg");
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-color: royalblue;
+    animation: fadeIn ease 3s;
+    margin: 35px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main {
+    border-radius: 13px;
+    background-color: maroon;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+
+.column {
+    flex: 33;
+    max-width: 33%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 50%;
+    height: auto;
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(1.5);
+}
+
+img {
+    border-radius: 20px;
+}

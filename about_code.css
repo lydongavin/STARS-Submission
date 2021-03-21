@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto&display=swap');
+
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./img/coding.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-color: royalblue;
+    animation: fadeIn ease 3s;
+    margin: 35px;
+}
+
+iframe {
+    margin: auto;
+    display: block;
+    width: 80vw;
+    height: 45vw;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+a {
+    color: gray;
+}
+
+a:hover {
+    color: aqua;
+    transition-duration: 0.5s;
+}
+
+.main {
+    margin: 10px;
+    background-color: #14134a;
+    border-radius: 20px;
+    padding: 10px;
+}
